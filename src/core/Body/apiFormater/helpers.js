@@ -60,7 +60,7 @@ let helpers = {
         "You must provide a fileName to getImgUrlFromFileName. Got " + fileName
       );
     fileName = helpers.formatFileName(fileName);
-    let url = `https://cdn.sanity.io/images/cat1ymme/production/${fileName}`;
+    let url = `https://cdn.sanity.io/images/qco69wat/production/${fileName}`;
     return url;
   },
   formatFileName: (fileName) => {
