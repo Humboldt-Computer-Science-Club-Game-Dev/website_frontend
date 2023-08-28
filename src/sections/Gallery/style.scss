@@ -1,0 +1,27 @@
+.gallery-container.light-mode {
+   background-color: #f9ddc8;
+
+   .title {
+      color: black;
+   }
+}
+
+.gallery-container {
+   padding: 2rem 0rem;
+
+   .gallery-grid-container {
+   }
+   .gallery-inner-container {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .action-button {
+      width: max-content;
+      margin: auto;
+      margin-top: 2rem;
+   }
+   .MuiImageListItemBar-subtitle {
+      line-height: 1.5;
+   }
+}

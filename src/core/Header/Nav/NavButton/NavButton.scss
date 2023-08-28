@@ -1,0 +1,15 @@
+.navbar-button-container {
+   .navbar-button {
+      outline: none;
+      border: none;
+      color: white;
+   }
+   .nav-button-text {
+      margin: 0rem;
+   }
+   @media screen and (max-width: 600px) {
+      p {
+         font-size: 1.75rem;
+      }
+   }
+}

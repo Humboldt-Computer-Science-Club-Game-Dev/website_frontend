@@ -1,0 +1,22 @@
+.image-modal-container {
+   display: flex;
+   flex-direction: column;
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   top: 0rem;
+   background-color: rgba(0, 0, 0, 0.75);
+   z-index: 1101;
+   overflow-y: scroll;
+
+   img {
+      width: 80%;
+      height: auto;
+      max-height: 60%;
+      margin: 2rem auto 0rem auto;
+      object-fit: contain;
+      @media screen and (max-width: 600px) {
+         width: 90%;
+      }
+   }
+}

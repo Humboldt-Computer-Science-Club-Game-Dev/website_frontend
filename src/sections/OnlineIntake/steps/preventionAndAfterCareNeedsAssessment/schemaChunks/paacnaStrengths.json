@@ -1,0 +1,43 @@
+{
+  "ID": "paacna_strengths",
+  "type": "infinite_input",
+  "context": {
+    "title": "Enter a strength your family has",
+    "content_title": "Enter at least one strength your family has TODO: switch the functionality of content_title with title",
+    "add_title": "Add",
+    "remove_title": "Remove"
+  },
+  "questionStructure": [
+    {
+      "question": "Enter strength here",
+      "placeholder": "We are a loving family",
+      "id": "paacna_strength",
+      "type": "text",
+      "validation": {
+        "required": true,
+        "regex": "^.{3,}$",
+        "error": "Please enter a valid strength"
+      }
+    }
+  ],
+  "questions": [
+    [
+      {
+        "question": "Enter strength here",
+        "placeholder": "We are a loving family",
+        "id": "paacna_strength",
+        "type": "text",
+        "validation": {
+          "required": true,
+          "regex": "^.{3,}$",
+          "error": "Please enter a valid strength"
+        }
+      }
+    ]
+  ],
+  "validation": {
+    "required": true,
+    "min": 1,
+    "Error": "Please enter at least one strength"
+  }
+}

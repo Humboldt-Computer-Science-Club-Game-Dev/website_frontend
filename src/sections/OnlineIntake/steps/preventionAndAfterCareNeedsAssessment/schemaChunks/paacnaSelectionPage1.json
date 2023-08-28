@@ -1,0 +1,564 @@
+{
+  "ID": "paacna_selection_page_1",
+  "type": "selection",
+  "questions": [
+    {
+      "question": "Are you interested in Anger Management classes for you or your partner?",
+      "id": "amger_management",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Are you interested in Parenting classes?",
+      "id": "parenting_classes",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Are you interested in Domestic Violence support groups?",
+      "id": "dv_support_groups",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Are you interested in general support groups to know other people in your community?",
+      "id": "general_support_groups",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Are you interested in substance abuse support groups?",
+      "id": "substance_abuse_support_groups",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you or a child/youth in your family need help finding a job?",
+      "id": "job_help",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Are you concerned with gang involvement in your family?",
+      "id": "gang_involvement",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you have concerns about your child/youth'Speech/Language? (speaking, body language, understanding what others say, stutter, etc.?",
+      "id": "speech_language_concerns",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you have concerns about how your child/youth moves (crawling, walking, running, climbing, jumping)?",
+      "id": "movement_concerns",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you have concerns about the way your child/youth behaves at home, school, or in the community (the way your child expresses their; the way your child interacts with others)?",
+      "id": "behavior_concerns",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Is your child/youth behaving in a way that interferes with his learning, home life, or his participation in community activities? (the way your child expresses their feelings; the way your child interacts with others)?",
+      "id": "behavior_interferes_with_learning_home_life_community_activities",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Is your child/youth having troupe sleeping because of anxiety or nightmares?",
+      "id": "sleeping_trouble_anxiety_nightmares",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Are you experiencing legal issues related to any of the following? Immigration, Guardianship, Support for a disability, Other?",
+      "id": "legal_issues",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Is there another caregiver in your home?",
+      "id": "another_caregiver_in_home",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you have people to turn to when you need help?",
+      "id": "people_to_turn_to_when_need_help",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you know how to get help when you need it?",
+      "id": "know_how_to_get_help_when_need_it",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you feel your family can handle problems that arise in the home?",
+      "id": "family_can_handle_problems_arise_in_home",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Are you part of groups in your neighborhood (for example, church groups, parent groups, substance abuse groups, neighborhood watch groups, etc)?",
+      "id": "part_of_groups_in_neighborhood",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    }
+  ]
+}

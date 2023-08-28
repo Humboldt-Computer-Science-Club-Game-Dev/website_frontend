@@ -1,0 +1,750 @@
+{
+  "ID": "paacna_selection_page_2",
+  "type": "selection",
+  "questions": [
+    {
+      "question": "Do you have a regular doctor you see?",
+      "id": "regular_doctor",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you have a dentist?",
+      "id": "dentist",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you have vision care?",
+      "id": "vision_care",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you have medical insurance?",
+      "id": "medical_insurance",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Dose your child/children have a regular doctor?",
+      "id": "child_regular_doctor",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Dose your child/children have a dentist?",
+      "id": "child_dentist",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Dose your child/children have vision care?",
+      "id": "child_vision_care",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Dose your child/children have medical insurance?",
+      "id": "child_medical_insurance",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Have you felt consistently sad for more than 3 weeks?",
+      "id": "sad_for_3_weeks_or_more",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Have you had thoughts about hurting yourself?",
+      "id": "thoughts_of_hurting_self",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you have mental health concerns you want to speak to someone about?",
+      "id": "mental_health_concerns_to_speak_to_someone_about",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Have you been unable to sleep because of anxiety, nightmares, etc?",
+      "id": "no_sleep",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you want to speak with someone about substance abuse?",
+      "id": "substance_abuse_speak_someone",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you consistently have enough food to feed your family?",
+      "id": "enough_food_for_family",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you have stable housing?",
+      "id": "stable_housing",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you have transportation when you need it?",
+      "id": "transportation_when_needed",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you have appropriate childcare?",
+      "id": "appropriate_childcare",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you have adequate furniture in your home?",
+      "id": "furniture_in_home",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Are you in need of emergency Funds?",
+      "id": "emergency_funds_needed",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you feel your home is safe for you and your family?",
+      "id": "home_safe_for_family",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Are you able to pay your bills consistently?",
+      "id": "pay_bills_consistently",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you have employment that is sufficient to meet your family's needs?",
+      "id": "employment_sufficient_for_family_needs",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you need job training in order to get stable employment?",
+      "id": "job_training_for_stable_employment",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you want to extend your education or participate in trainings for personal or employment reasons?",
+      "id": "education_or_training_for_personal_or_employment_reasons",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "type": "radio"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "declined",
+          "type": "radio",
+          "default": "checked"
+        },
+        {
+          "label": "Answered on IFSP",
+          "value": "ifsp",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    }
+  ]
+}

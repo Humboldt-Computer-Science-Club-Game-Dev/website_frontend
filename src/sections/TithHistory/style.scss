@@ -1,0 +1,57 @@
+.tithe-history-container {
+	background-color: black;
+
+	.tithe-cards-container {
+		width: 100%;
+		height: auto;
+	}
+
+	.tithe-card-container {
+		width: 50%;
+		height: auto;
+
+		.tithe-ammout-text {
+			z-index: 1;
+			margin: auto;
+			color: white;
+			font-weight: 700;
+		}
+
+		.img-container {
+			width: 100%;
+			height: 14rem;
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			object-fit: cover;
+			z-index: 0;
+		}
+
+		.date-text {
+			width: 100%;
+			height: auto;
+			margin-top: 1rem;
+		}
+
+		.message-text {
+			width: 100%;
+			height: auto;
+			margin-top: 1rem;
+		}
+	}
+
+	.left-card {
+		padding: 1rem 1rem 0rem 0rem;
+	}
+
+	.right-card {
+		padding: 1rem 0rem 0rem 1rem;
+	}
+}
+.tithe-history-container.light-mode {
+	background-color: #f9ddc8;
+	color: black;
+}

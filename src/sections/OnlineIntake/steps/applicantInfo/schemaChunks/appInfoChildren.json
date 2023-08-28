@@ -1,0 +1,53 @@
+{
+  "ID": "applicant_children",
+  "type": "infinite_input",
+  "context": {
+    "title": "Enter Child Information",
+    "content_title": "Child ($content)",
+    "add_title": "Add Child",
+    "remove_title": "Remove Child"
+  },
+  "questionStructure": [
+    {
+      "question": "Child's Full Name",
+      "placeholder": "Scarlet Myers",
+      "id": "full_name",
+      "type": "text",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Child's Date of Birth",
+      "placeholder": "MM/DD/YYYY",
+      "id": "dob",
+      "type": "date",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "questions": [
+    [
+      {
+        "question": "Child's Full Name",
+        "placeholder": "Scarlet Myers",
+        "id": "full_name",
+        "type": "text",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "question": "Child's Date of Birth",
+        "placeholder": "MM/DD/YYYY",
+        "id": "dob",
+        "type": "date"
+      }
+    ]
+  ],
+  "validation": {
+    "required": false,
+    "min": 0
+  }
+}

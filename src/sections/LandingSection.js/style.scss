@@ -1,0 +1,23 @@
+.landing-screen {
+   .icon {
+      width: 12rem;
+      height: auto;
+      margin: 1rem auto 0rem auto;
+   }
+   .landing-title {
+      margin-top: 1rem;
+   }
+   .landing-material-container {
+      display: flex;
+      flex-direction: column;
+   }
+   .MuiBox-root-26 {
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .subtitle-container {
+      .react-reveal {
+         margin: auto;
+      }
+   }
+}

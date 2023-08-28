@@ -1,0 +1,29 @@
+.standalone-text-container {
+   background-color: black;
+   color: white;
+   padding-top: 2rem;
+   padding-bottom: 3rem;
+
+   .title {
+      margin-top: 1rem;
+   }
+
+   .subtitle {
+      margin-top: 1rem;
+   }
+
+   .text {
+      margin-top: 2rem;
+      margin-bottom: 0rem;
+   }
+
+   .text-container {
+      display: flex;
+      flex-direction: column;
+   }
+}
+
+.standalone-text-container.light-mode {
+   background-color: #f9ddc8 !important;
+   color: black;
+}

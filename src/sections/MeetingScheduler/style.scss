@@ -1,0 +1,61 @@
+.meeting-scheduler-container {
+	height: auto;
+
+	.calendly-inline-widget {
+	}
+
+	iframe {
+		overflow: hidden;
+	}
+	.meeting-inner-container {
+		display: flex;
+	}
+	.side {
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+	}
+	.call-button {
+		margin-top: 1rem;
+	}
+	.calendly-inline-widget {
+		margin-top: 1rem;
+	}
+
+	.side:first-of-type {
+		margin-right: 0.5rem;
+	}
+	.side:last-of-type {
+		margin-left: 0.5rem;
+	}
+	.subtext {
+		margin-top: 1rem;
+	}
+
+	@media screen and (max-width: 600px) {
+		text-align: center;
+		.meeting-inner-container {
+			flex-direction: column;
+		}
+		.side {
+			width: 100%;
+			margin: 0rem;
+			padding-left: 0rem;
+			padding-right: 0rem;
+		}
+
+		.side:last-of-type {
+			margin-bottom: 2rem;
+			margin-left: 0rem;
+		}
+	}
+
+	.mt-1 {
+		margin-top: 1rem;
+	}
+}
+
+.meeting-scheduler-container.light-mode {
+	background-color: #f9ddc8;
+	color: black;
+}

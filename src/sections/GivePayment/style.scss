@@ -1,0 +1,39 @@
+.give-payment-container {
+	background-color: red;
+	.p-GridCell--6 {
+		width: 100%;
+	}
+
+	.action-addon {
+		margin-left: 0rem !important;
+		margin-right: 0rem !important;
+	}
+
+	#payment-message {
+		color: black;
+	}
+
+	.react-reveal {
+		width: 100%;
+	}
+}
+
+.p-PaymentElement {
+	.p-GridCell--6 {
+		width: 100%;
+	}
+}
+
+.stripe-ele {
+	background-color: red;
+	.p-GridCell--6 {
+		width: 100%;
+	}
+}
+
+.p-Tab:last-child {
+	margin-right: 0;
+	margin-left: 4px;
+	background-color: transparent;
+	border: 1px solid gray;
+}

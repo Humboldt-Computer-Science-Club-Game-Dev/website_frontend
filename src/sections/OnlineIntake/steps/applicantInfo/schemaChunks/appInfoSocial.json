@@ -1,0 +1,56 @@
+{
+  "ID": "applicant_social_worker",
+  "type": "infinite_input",
+  "context": {
+    "title": "Enter Social Worker Information",
+    "content_title": "Social ($content)",
+    "add_title": "Add",
+    "remove_title": "Remove"
+  },
+  "questionStructure": [
+    {
+      "question": "Social Workers's Full Name",
+      "placeholder": "Scarlet Myers",
+      "id": "full_name",
+      "type": "text",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Social Workers's Phone Number",
+      "placeholder": "(310) 625-4363",
+      "id": "phone_number",
+      "type": "tel",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "questions": [
+    [
+      {
+        "question": "Social Workers's Full Name",
+        "placeholder": "Scarlet Myers",
+        "id": "full_name",
+        "type": "text",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "question": "Social Workers's Phone Number",
+        "placeholder": "MM/DD/YYYY",
+        "id": "phone_number",
+        "type": "tel",
+        "validation": {
+          "required": false
+        }
+      }
+    ]
+  ],
+  "validation": {
+    "required": false,
+    "min": 0
+  }
+}

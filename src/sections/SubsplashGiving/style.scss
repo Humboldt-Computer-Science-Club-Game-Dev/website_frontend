@@ -1,0 +1,10 @@
+.subsplash-giving-container {
+  height: 630px;
+  background-color: white;
+}
+
+@media screen and (max-width: 960px) {
+  .subsplash-giving-container {
+    height: 720px;
+  }
+}

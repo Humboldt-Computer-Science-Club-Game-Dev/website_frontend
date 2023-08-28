@@ -1,0 +1,32 @@
+.outer-map-container {
+   .map-contaier {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      .map {
+         height: 25rem;
+         width: 100%;
+         background-color: rgba(0, 0, 0, 0.5);
+         margin-top: 2rem;
+      }
+      .map-overlay {
+         height: 6rem;
+         width: 100%;
+         bottom: 0;
+         z-index: 2;
+         background-color: rgba(0, 0, 0, 0.5);
+         position: absolute;
+         right: 0;
+      }
+      .directions-button {
+         left: 50%;
+         transform: translateX(-50%);
+         bottom: 1rem;
+         position: absolute;
+      }
+   }
+   .description {
+      margin-top: 2rem;
+      margin-bottom: 0rem;
+   }
+}

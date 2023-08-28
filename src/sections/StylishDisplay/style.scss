@@ -1,0 +1,93 @@
+.stylish-display-container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	color: white;
+	overflow-x: hidden;
+
+	.row-display {
+		display: flex;
+	}
+
+	.stylish-image-container {
+		width: 40%;
+		height: auto;
+		display: flex;
+		position: relative;
+	}
+
+	.content-container {
+		width: 60%;
+		display: flex;
+	}
+
+	.horizontal-center-content {
+		margin: auto 0rem;
+		padding: 1rem;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.bg-image {
+		position: absolute;
+		width: 95%;
+		z-index: 0;
+	}
+	.left-bg-image {
+		left: 0;
+	}
+	.right-bg-image {
+		right: 0;
+	}
+
+	.forground-image {
+		z-index: 5;
+		margin-top: 2rem;
+		width: 110%;
+		object-fit: cover;
+	}
+	.left-forground-image {
+		margin-left: -10%;
+	}
+	.right-forground-image {
+		margin-right: -10%;
+	}
+
+	.display-image {
+		width: 100%;
+		height: auto;
+		max-height: 48vh;
+		object-fit: cover;
+		border-radius: 9px;
+
+		@media screen and (max-width: 960px) {
+			max-height: 36vh;
+		}
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {
+		text-align: center;
+		width: auto;
+		display: flex;
+		margin: 0 auto;
+	}
+
+	.display-image,
+	p {
+		margin-top: 1rem;
+		margin-bottom: 0rem;
+	}
+}
+
+.stylish-display-container.light-mode {
+	background-color: #f9ddc8;
+	color: black;
+}

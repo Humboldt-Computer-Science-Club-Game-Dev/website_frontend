@@ -1,0 +1,16 @@
+.video-background {
+   .video-background-parallax {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      margin: 0;
+      display: flex;
+   }
+   .parallax-inner {
+      height: 100%;
+      width: 100%;
+   }
+   .video-element {
+      height: 100%;
+   }
+}

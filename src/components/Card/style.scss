@@ -1,0 +1,44 @@
+.card-container {
+	margin: 0rem auto;
+	width: 26rem;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+
+	.card-bg-container {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+	}
+
+	.card-bg {
+		width: 100%;
+		position: absolute;
+		top: 0;
+	}
+
+	.card-forgorund {
+		z-index: 5;
+		margin: auto;
+		width: 90%;
+		max-height: 100%;
+	}
+
+	p,
+	h4,
+	button {
+		margin: 1rem 0rem 0rem 0rem;
+	}
+
+	.slide-container {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.card-container.light-mode {
+	p,
+	h4 {
+		color: black;
+	}
+}

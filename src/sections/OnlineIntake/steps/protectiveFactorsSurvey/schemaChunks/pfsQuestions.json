@@ -1,0 +1,1172 @@
+{
+  "ID": "pfs_selection_page_1",
+  "type": "selection",
+  "questions": [
+    {
+      "question": "How was this survey complected?",
+      "id": "how_was_this_survey_complected",
+      "type": "selection",
+      "options": [
+        {
+          "label": "In a Face-to-Face Interview",
+          "value": "In a Face-to-Face Interview",
+          "type": "radio"
+        },
+        {
+          "label": "I got assistance from program staff to explain items as needed",
+          "value": "By the participant with assistance available from program staff to explain items as needed",
+          "type": "radio"
+        },
+        {
+          "label": "Own my own without help from program staff",
+          "value": "By the participant without program staff present",
+          "type": "radio",
+          "default": "checked"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "How was the participant referred to this program?",
+      "id": "how_was_the_participant_referred_to_this_program",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Child Protective Services / DCFS",
+          "value": "Child Protective Services / DCFS",
+          "type": "radio"
+        },
+        {
+          "label": "Community Program / Referral",
+          "value": "Community Program / Referral",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Is the participant currently receiving services from any of the following?",
+      "id": "is_the_participant_currently_receiving_services_from_any_of_the_following",
+      "type": "selection_check",
+      "options": [
+        {
+          "label": "Employment Development Department (Unemployment, Disability)",
+          "value": "Employment Development Department (Unemployment, Disability)",
+          "type": "check"
+        },
+        {
+          "label": "Department of Children and Family Services",
+          "value": "Department of Children and Family Services",
+          "type": "check"
+        },
+        {
+          "label": "Department of Mental Health",
+          "value": "Department of Mental Health",
+          "type": "check"
+        },
+        {
+          "label": "Department of Public Social Services",
+          "value": "Department of Public Social Services",
+          "type": "check"
+        },
+        {
+          "label": "Housing Authority (Housing Authority of the City of Los Angeles, Housing Authority of the County of Los Angeles)",
+          "value": "Housing Authority (Housing Authority of the City of Los Angeles, Housing Authority of the County of Los Angeles)",
+          "type": "check"
+        },
+        {
+          "label": "Juvenile Justice",
+          "value": "Juvenile Justice",
+          "type": "check"
+        },
+        {
+          "label": "Probation",
+          "value": "Probation",
+          "type": "check"
+        },
+        {
+          "label": "Regional Center",
+          "value": "Regional Center",
+          "type": "check"
+        },
+        {
+          "label": "Social Security Administration",
+          "value": "Social Security Administration",
+          "type": "check"
+        },
+        {
+          "label": "None of the above",
+          "value": "None of the above",
+          "type": "check"
+        },
+        {
+          "label": "Decline to Answer",
+          "value": "Decline to Answer",
+          "type": "check"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Identify the type of program that most accurately describes the services the participant is receiving from the program / agency. (Select all that apply)",
+      "id": "general_support_groups",
+      "type": "selection_check",
+      "options": [
+        {
+          "label": "Adult Education",
+          "value": "Adult Education",
+          "type": "check"
+        },
+        {
+          "label": "Advocacy (self, community)",
+          "value": "Advocacy (self, community)",
+          "type": "check"
+        },
+        {
+          "label": "Co-Parenting Class",
+          "value": "Co-Parenting Class",
+          "type": "check"
+        },
+        {
+          "label": "Domestic Violence Group",
+          "value": "Domestic Violence Group",
+          "type": "check"
+        },
+        {
+          "label": "Family Literacy",
+          "value": "Family Literacy",
+          "type": "check"
+        },
+        {
+          "label": "Fatherhood Program",
+          "value": "Fatherhood Program",
+          "type": "check"
+        },
+        {
+          "label": "Healthy Relationships",
+          "value": "Healthy Relationships",
+          "type": "check"
+        },
+        {
+          "label": "Home Visiting",
+          "value": "Home Visiting",
+          "type": "check"
+        },
+        {
+          "label": "Homeless / Transitional Housing",
+          "value": "Homeless / Transitional Housing",
+          "type": "check"
+        },
+        {
+          "label": "Individual / Couples / Family Counseling",
+          "value": "Individual / Couples / Family Counseling",
+          "type": "check"
+        },
+        {
+          "label": "Job Skills / Employment Prep",
+          "value": "Job Skills / Employment Prep",
+          "type": "check"
+        },
+        {
+          "label": "LGBTQ Youth Support",
+          "value": "LGBTQ Youth Support",
+          "type": "check"
+        },
+        {
+          "label": "Marriage Strengthening / Prep",
+          "value": "Marriage Strengthening / Prep",
+          "type": "check"
+        },
+        {
+          "label": "Parent Education",
+          "value": "Parent Education",
+          "type": "check"
+        },
+        {
+          "label": "Parent / Child Interaction",
+          "value": "Domestic Violence Group",
+          "type": "check"
+        },
+        {
+          "label": "Parent Support Group",
+          "value": "Parent Support Group",
+          "type": "check"
+        },
+        {
+          "label": "Planed and / or Crisis Respite",
+          "value": "Planed and / or Crisis Respite",
+          "type": "check"
+        },
+        {
+          "label": "Pre-Natal Class",
+          "value": "Pre-Natal Class",
+          "type": "check"
+        },
+        {
+          "label": "Resource and Referral",
+          "value": "Resource and Referral",
+          "type": "check"
+        },
+        {
+          "label": "Skill Bulging / Ed for Children",
+          "value": "Skill Bulging / Ed for Children",
+          "type": "check"
+        },
+        {
+          "label": "Other",
+          "value": "Other",
+          "type": "check"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "The future looks good for our family?",
+      "id": "the_future_looks_good_for_our_family",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Not at all like my life",
+          "value": "Not at all like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Not much like my life",
+          "value": "Not much like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Somewhat like my life",
+          "value": "Somewhat like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Quite a lot like my life",
+          "value": "quite a lot like my life",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "In my family, we take time to listen to each other?",
+      "id": "in_my_family_we_take_time_to_listen_to_each_other",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Not at all like my life",
+          "value": "Not at all like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Not much like my life",
+          "value": "Not much like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Somewhat like my life",
+          "value": "Somewhat like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Quite a lot like my life",
+          "value": "quite a lot like my life",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "There are thing we do as a family that are special just to us?",
+      "id": "special_family_things",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Not at all like my life",
+          "value": "Not at all like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Not much like my life",
+          "value": "Not much like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Somewhat like my life",
+          "value": "Somewhat like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Quite a lot like my life",
+          "value": "quite a lot like my life",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "My child misbehaves just to upset me.",
+      "id": "my_child_misbehaves_just_to_upset_me",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Not at all like my life",
+          "value": "Not at all like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Not much like my life",
+          "value": "Not much like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Somewhat like my life",
+          "value": "Somewhat like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Quite a lot like my life",
+          "value": "quite a lot like my life",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "I feel like I'm always telling my kids \"no\" or \"stop\"?",
+      "id": "telling_no_stop_to_kids",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Not at all like my life",
+          "value": "Not at all like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Not much like my life",
+          "value": "Not much like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Somewhat like my life",
+          "value": "Somewhat like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Quite a lot like my life",
+          "value": "quite a lot like my life",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "I have frequent power struggles with my kids.",
+      "id": "power_struggles_with_kids",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Not at all like my life",
+          "value": "Not at all like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Not much like my life",
+          "value": "Not much like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Somewhat like my life",
+          "value": "Somewhat like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Quite a lot like my life",
+          "value": "quite a lot like my life",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "How I respond to my children depends on how I'm feeling",
+      "id": "how_respond_to_children_depends_on_feeling",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Not at all like my life",
+          "value": "Not at all like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Not much like my life",
+          "value": "Not much like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Somewhat like my life",
+          "value": "Somewhat like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Quite a lot like my life",
+          "value": "quite a lot like my life",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "I have people who believe in me",
+      "id": "people_who_believe_in_me",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Not at all like my life",
+          "value": "Not at all like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Not much like my life",
+          "value": "Not much like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Somewhat like my life",
+          "value": "Somewhat like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Quite a lot like my life",
+          "value": "quite a lot like my life",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "I have someone in my life who gives me advice, even when it's hard to hear.",
+      "id": "some_gives_me_advice",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Not at all like my life",
+          "value": "Not at all like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Not much like my life",
+          "value": "Not much like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Somewhat like my life",
+          "value": "Somewhat like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Quite a lot like my life",
+          "value": "quite a lot like my life",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "When I am trying to work on achieving a goal, I have friends who support me.",
+      "id": "when_achieving_goal_friends_support_me",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Not at all like my life",
+          "value": "Not at all like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Not much like my life",
+          "value": "Not much like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Somewhat like my life",
+          "value": "Somewhat like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Quite a lot like my life",
+          "value": "quite a lot like my life",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "When I need someone to look after my kids on short notice, I can find someone I trust?",
+      "id": "someone_trustworthy_can_look_over_my_kids",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Not at all like my life",
+          "value": "Not at all like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Not much like my life",
+          "value": "Not much like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Somewhat like my life",
+          "value": "Somewhat like my life",
+          "type": "radio"
+        },
+        {
+          "label": "Quite a lot like my life",
+          "value": "quite a lot like my life",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "I have people I trust to ask for advice about (check all that apply)?",
+      "id": "I_can_trust_for_advice",
+      "type": "selection_check",
+      "options": [
+        {
+          "label": "Money / Bills / Budgeting",
+          "value": "Money / Bills / Budgeting",
+          "type": "check"
+        },
+        {
+          "label": "Relationships and / or My Love Life",
+          "value": "Relationships and / or My Love Life",
+          "type": "check"
+        },
+        {
+          "label": "Food / Nutrition",
+          "value": "Food / Nutrition",
+          "type": "check"
+        },
+        {
+          "label": "Stress, Anxiety, and / or Depression",
+          "value": "Stress, Anxiety, and / or Depression",
+          "type": "check"
+        },
+        {
+          "label": "Parenting / My Kids",
+          "value": "Parenting / My Kids",
+          "type": "check"
+        },
+        {
+          "label": "None of the above",
+          "value": "None of the above",
+          "type": "check"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "I feel like the staff here understand me?",
+      "id": "staff_understand_me",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Strongly agree",
+          "value": "Strongly agree",
+          "type": "radio"
+        },
+        {
+          "label": "Agree",
+          "value": "Agree",
+          "type": "radio"
+        },
+        {
+          "label": "Neither agree or disagree",
+          "value": "Neither agree or disagree",
+          "type": "radio"
+        },
+        {
+          "label": "Disagree",
+          "value": "Disagree",
+          "type": "radio"
+        },
+        {
+          "label": "Strongly disagree",
+          "value": "Strongly disagree",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "In the past month, were you unable to pay for?",
+      "id": "past_month_couldnt_pay_for",
+      "type": "selection_check",
+      "options": [
+        {
+          "label": "Rent or mortgage",
+          "value": "Rent or mortgage",
+          "type": "check"
+        },
+        {
+          "label": "Child care / daycare",
+          "value": "Child care / daycare",
+          "type": "check"
+        },
+        {
+          "label": "Transportation (including gas, bus passes, shared rides)",
+          "value": "Transportation (including gas, bus passes, shared rides)",
+          "type": "check"
+        },
+        {
+          "label": "Utilities or bills (electricity / gas / heat, cell phone, etc.)",
+          "value": "Utilities or bills (electricity / gas / heat, cell phone, etc.)",
+          "type": "check"
+        },
+        {
+          "label": "Medicine, medical expenses, or co-pays",
+          "value": "Medicine, medical expenses, or co-pays",
+          "type": "check"
+        },
+        {
+          "label": "Groceries / food (including baby formula, dippers)",
+          "value": "Groceries / food (including baby formula, dippers)",
+          "type": "check"
+        },
+        {
+          "label": "Basic household or personal hygiene items",
+          "value": "Basic household or personal hygiene items",
+          "type": "check"
+        },
+        {
+          "label": "I was able to pay for all of these",
+          "value": "I was able to pay for all of these",
+          "type": "check"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "I the past year, have you...",
+      "id": "have_you_in_past_year",
+      "type": "selection_check",
+      "options": [
+        {
+          "label": "Delayed or not gotten medical or dental",
+          "value": "Delayed or not gotten medical or dental",
+          "type": "check"
+        },
+        {
+          "label": "Been evicted from your home or apartment",
+          "value": "Been evicted from your home or apartment",
+          "type": "check"
+        },
+        {
+          "label": "Lived at a shelter, in a hotel / model, in an abandoned building, or in a vehicle",
+          "value": "Lived at a shelter, in a hotel / model, in an abandoned building, or in a vehicle",
+          "type": "check"
+        },
+        {
+          "label": "Moved in with other people, even temporarily, because you could not afford to pay rent, mortgage, or bills",
+          "value": "Moved in with other people, even temporarily, because you could not afford to pay rent, mortgage, or bills",
+          "type": "check"
+        },
+        {
+          "label": "Lost access to your regular transportation (e.g. vehicle totaled or repossessed)",
+          "value": "Lost access to your regular transportation (e.g. vehicle totaled or repossessed)",
+          "type": "check"
+        },
+        {
+          "label": "Been unemployed when you really needed and wanted a job",
+          "value": "Been unemployed when you really needed and wanted a job",
+          "type": "check"
+        },
+        {
+          "label": "None of these apply to me",
+          "value": "None of these apply to me",
+          "type": "check"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "I have troupe affording what I need?",
+      "id": "trouble_affording_needs",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Never",
+          "value": "Never",
+          "type": "radio"
+        },
+        {
+          "label": "Rarely",
+          "value": "Rarely",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Almost always",
+          "value": "Almost always",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "I am able to afford the food I want to feed my family?",
+      "id": "cant_feed_family_wanted_food",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Never",
+          "value": "Never",
+          "type": "radio"
+        },
+        {
+          "label": "Rarely",
+          "value": "Rarely",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Almost always",
+          "value": "Almost always",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "What is your sex?",
+      "id": "what_sex",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Male",
+          "value": "Male",
+          "type": "radio"
+        },
+        {
+          "label": "Female",
+          "value": "Female",
+          "type": "radio"
+        },
+        {
+          "label": "Gender non-conforming / non-binary",
+          "value": "Gender non-conforming / non-binary",
+          "type": "radio"
+        },
+        {
+          "label": "Prefer not to answer",
+          "value": "Prefer not to answer",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Primary Language Spoken at Home?",
+      "id": "primary_language_spoken_at_home",
+      "type": "selection",
+      "options": [
+        {
+          "label": "English",
+          "value": "English",
+          "type": "radio"
+        },
+        {
+          "label": "Spanish",
+          "value": "Spanish",
+          "type": "radio"
+        },
+        {
+          "label": "Creole",
+          "value": "Creole",
+          "type": "radio"
+        },
+        {
+          "label": "Mandarin",
+          "value": "Mandarin",
+          "type": "radio"
+        },
+        {
+          "label": "Arabic",
+          "value": "Arabic",
+          "type": "radio"
+        },
+        {
+          "label": "Russian",
+          "value": "Russian",
+          "type": "radio"
+        },
+        {
+          "label": "Other",
+          "value": "Other",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Rae / Ethnicity (Please choose as many as apply)",
+      "id": "race_ethnicity",
+      "type": "selection_check",
+      "options": [
+        {
+          "label": "Native American or Alaskan Native",
+          "value": "Native American or Alaskan Native",
+          "type": "check"
+        },
+        {
+          "label": "Asian",
+          "value": "Asian",
+          "type": "check"
+        },
+        {
+          "label": "African American",
+          "value": "African American",
+          "type": "check"
+        },
+        {
+          "label": "African National / Caribbean islander",
+          "value": "African National / Caribbean islander",
+          "type": "check"
+        },
+        {
+          "label": "Hispanic or Latino",
+          "value": "Hispanic or Latino",
+          "type": "check"
+        },
+        {
+          "label": "Middle Eastern",
+          "value": "Middle Eastern",
+          "type": "check"
+        },
+        {
+          "label": "Native Hawaiian / Pacific Islander",
+          "value": "Native Hawaiian / Pacific Islander",
+          "type": "check"
+        },
+        {
+          "label": "White (Non-Hispanic / European American)",
+          "value": "White (Non-Hispanic / European American)",
+          "type": "check"
+        },
+        {
+          "label": "Other",
+          "value": "Other",
+          "type": "check"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Relationship Status?",
+      "id": "relationship_status",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Married",
+          "value": "Married",
+          "type": "radio"
+        },
+        {
+          "label": "Partnered",
+          "value": "Partnered",
+          "type": "radio"
+        },
+        {
+          "label": "Single",
+          "value": "Single",
+          "type": "radio"
+        },
+        {
+          "label": "Divorced",
+          "value": "Divorced",
+          "type": "radio"
+        },
+        {
+          "label": "Widowed",
+          "value": "Widowed",
+          "type": "radio"
+        },
+        {
+          "label": "Separated",
+          "value": "Separated",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Family Housing?",
+      "id": "family_housing",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Own",
+          "value": "Own",
+          "type": "radio"
+        },
+        {
+          "label": "Rent",
+          "value": "Rent",
+          "type": "radio"
+        },
+        {
+          "label": "Shared housing with relatives / friends",
+          "value": "Shared housing with relatives / friends",
+          "type": "radio"
+        },
+        {
+          "label": "Homeless / Transitional Housing",
+          "value": "Homeless / Transitional Housing",
+          "type": "radio"
+        },
+        {
+          "label": "Temporary (shelter, temporary with friends / relatives)",
+          "value": "Temporary (shelter, temporary with friends / relatives)",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Total Family Income",
+      "id": "total_family_income",
+      "type": "selection",
+      "options": [
+        {
+          "label": "$0 - $10,000",
+          "value": "$0 - $10,000",
+          "type": "radio"
+        },
+        {
+          "label": "$10,000 - $20,000",
+          "value": "$10,000 - $20,000",
+          "type": "radio"
+        },
+        {
+          "label": "$20,000 - $30,000",
+          "value": "$20,000 - $30,000",
+          "type": "radio"
+        },
+        {
+          "label": "$30,000 - $40,000",
+          "value": "$30,000 - $40,000",
+          "type": "radio"
+        },
+        {
+          "label": "$40,000 - $50,000",
+          "value": "$40,000 - $50,000",
+          "type": "radio"
+        },
+        {
+          "label": "$50,000 - $60,000",
+          "value": "$50,000 - $60,000",
+          "type": "radio"
+        },
+        {
+          "label": "More than $60,001",
+          "value": "More than $60,001",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Highest Level of Education",
+      "id": "highest_level_of_education",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Elementary",
+          "value": "Elementary",
+          "type": "radio"
+        },
+        {
+          "label": "Junior high school",
+          "value": "Junior high school",
+          "type": "radio"
+        },
+        {
+          "label": "Some high school",
+          "value": "Some high school",
+          "type": "radio"
+        },
+        {
+          "label": "High school diploma or GED",
+          "value": "High school diploma or GED",
+          "type": "radio"
+        },
+        {
+          "label": "Trade / Vocational training",
+          "value": "Trade / Vocational training",
+          "type": "radio"
+        },
+        {
+          "label": "Some college",
+          "value": "Some college",
+          "type": "radio"
+        },
+        {
+          "label": "2-year collage degree (Associate's)",
+          "value": "2-year collage degree (Associate's)",
+          "type": "radio"
+        },
+        {
+          "label": "4-year collage degree (Bachelor's)",
+          "value": "4-year collage degree (Bachelor's)",
+          "type": "radio"
+        },
+        {
+          "label": "Advanced degree",
+          "value": "Advanced degree",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Which, if any, of the following do you or your family currently receive? (Check all that apply)",
+      "id": "highest_level_of_education",
+      "type": "selection_check",
+      "options": [
+        {
+          "label": "Supplemental Nutrition Assistance Program (SNAP / foodstamps)",
+          "value": "Supplemental Nutrition Assistance Program (SNAP / foodstamps)",
+          "type": "check"
+        },
+        {
+          "label": "Social Security Disability income (SSDI)",
+          "value": "Social Security Disability income (SSDI)",
+          "type": "check"
+        },
+        {
+          "label": "Medicaid",
+          "value": "Medicaid",
+          "type": "check"
+        },
+        {
+          "label": "Earned Income Tax Credit (EITC)",
+          "value": "Earned Income Tax Credit (EITC)",
+          "type": "check"
+        },
+        {
+          "label": "Temporary Assistance for Needy Families (TANF)",
+          "value": "Temporary Assistance for Needy Families (TANF)",
+          "type": "check"
+        },
+        {
+          "label": "Head Start / Early Head Start Services",
+          "value": "Head Start / Early Head Start Services",
+          "type": "check"
+        },
+        {
+          "label": "Unemployment Benefits",
+          "value": "Unemployment Benefits",
+          "type": "check"
+        },
+        {
+          "label": "State Health Insurance (including children's health insurance)",
+          "value": "State Health Insurance (including children's health insurance)",
+          "type": "check"
+        },
+        {
+          "label": "Supplemental Security income (SSI)",
+          "value": "Supplemental Security income (SSI)",
+          "type": "check"
+        },
+        {
+          "label": "None of the above",
+          "value": "None of the above",
+          "type": "check"
+        },
+        {
+          "label": "Other",
+          "value": "Other",
+          "type": "check"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    }
+  ]
+}

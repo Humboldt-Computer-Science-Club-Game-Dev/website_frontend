@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans+Condensed:wght@300;700&display=swap");
+html {
+  background-color: black;
+  overflow: hidden;
+}
+body {
+  background-color: black;
+  overflow: hidden;
+}
+html,
+body {
+  overflow: auto;
+}
+#root {
+  background-color: black !important;
+}
+.preventScroll {
+  overflow: hidden;
+}
+.App {
+  text-align: center;
+  overscroll-behavior: none;
+  height: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.standard-text-area {
+  padding: 0.5rem 0rem 0.5rem 0.5rem;
+
+  background: transparent;
+
+  border-top: 0rem;
+  border-left: 0rem;
+  border-right: 0rem;
+  border-bottom: 1px solid black;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.extra-pt {
+  padding-top: 8rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.match-container {
+  width: 100%;
+  height: 100%;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.special-font {
+  font-family: "Dancing Script", cursive !important;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.test-code h1 {
+  margin: 0rem;
+}
+
+.o-0 {
+  opacity: 0%;
+  transition-property: opacity;
+  transition-duration: 4s;
+}
+
+.o-1 {
+  transition-property: opacity;
+  transition-duration: 4s;
+  opacity: 100% !important;
+}
+
+.add-bg-dark-blur {
+  transition-duration: 2s;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 15px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 15px 6px rgba(0, 0, 0, 0.5);
+}
+.add-shadow {
+  transition-duration: 2s;
+  -webkit-box-shadow: 5px 5px 15px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 15px 6px rgba(0, 0, 0, 0.5);
+}
+.add-text-shadow {
+  transition-duration: 2s;
+  text-shadow: 4px 4px 20px rgba(0, 0, 0, 1);
+}
+.transition-out-dark-bg {
+  transition-duration: 2s;
+  background-color: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.mb-0 {
+  margin-bottom: 0rem !important;
+}
+.react-reveal {
+  display: flex;
+}
+
+.a-button {
+  background: none;
+  border: none;
+}
+
+.auto-height {
+  height: auto;
+}
+
+.py-moderate {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.py-heigh {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
+
+.icon {
+  width: 1.25rem;
+  height: auto;
+}
+
+.p-GridCell {
+  width: 100%;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.w-full {
+  width: 100%;
+}
+
+.h-min {
+  height: min-content;
+}
+
+.h-min-i {
+  height: min-content !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.hidden-i {
+  display: none !important;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.bg-successful {
+  background-color: #50ce66;
+}
+
+.bg-failed {
+  background-color: #ff696a;
+}
+
+.bg-warning {
+  background-color: #ffb706;
+}
+
+.font-extrasmall {
+  font-size: 0.65rem;
+}
+
+.font-extrasmall-i {
+  font-size: 0.65rem !important;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.round {
+  border-radius: 100%;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.p-8 {
+  padding: 2rem;
+}
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-2-i {
+  margin-top: 0.5rem !important;
+}
+.mt-4-i {
+  margin-top: 1rem !important;
+}
+
+.vignette {
+  background: radial-gradient(transparent 10%, black);
+}
+
+.vignette-top {
+  position: absolute;
+  top: 0;
+  height: 50%;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.vignette-bottom {
+  position: absolute;
+  bottom: 0;
+  height: 50%;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-05 {
+  margin-top: 0.5em;
+}
+
+.mt-0 {
+  margin-top: 0rem;
+}
+
+.mt-0-i {
+  margin-top: 0rem !important;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .MuiPaper-root {
+	background-color: transparent !important;
+} */
+.text-center {
+  text-align: center;
+}
+
+.d-none {
+  display: none;
+}
+
+.standard_elements input {
+  background-color: transparent;
+  border: 0px solid black;
+  border-bottom: 1px solid black;
+  height: 2rem;
+  min-height: 2rem;
+  border-radius: 0;
+  display: flex;
+  padding: 0.5rem;
+}
+.standard_elements button {
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  padding: 1rem 4rem;
+  border-radius: 4px;
+  width: fit-content;
+  display: flex;
+  max-width: 100%;
+}
+.standard_elements label {
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+}
+
+.standard_elements select {
+  background-color: transparent;
+  border: 0px solid black;
+  border-bottom: 1px solid black;
+  height: 2rem;
+  min-height: 2rem;
+  border-radius: 0;
+  appearance: none; /* Remove default appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: flex;
+}
+
+.standard_elements select option {
+  background-color: transparent;
+  border: 200px solid black;
+  border-bottom: 10px solid black;
+  height: 2rem;
+  min-height: 2rem;
+  border-radius: 0;
+  display: flex;
+}

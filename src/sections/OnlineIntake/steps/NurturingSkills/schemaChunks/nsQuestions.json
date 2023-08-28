@@ -1,0 +1,1906 @@
+{
+  "ID": "ns",
+  "type": "selection",
+  "questions": [
+    {
+      "question": "Current Employment-Status status",
+      "id": "school_employment",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Employed full-time",
+          "value": "Employed full-time",
+          "type": "radio"
+        },
+        {
+          "label": "Going to school full-time",
+          "value": "Going to school full-time",
+          "type": "radio"
+        },
+        {
+          "label": "Employed part-time",
+          "value": "Employed part-time",
+          "type": "radio"
+        },
+        {
+          "label": "Going to school part-time",
+          "value": "Going to school part-time",
+          "type": "radio"
+        },
+        {
+          "label": "Both you and spouse going to school part-time",
+          "value": "Both going to school part-time",
+          "type": "radio"
+        },
+        {
+          "label": "Both going to school and working",
+          "value": "Both going to school and working",
+          "type": "radio"
+        },
+        {
+          "label": "I am a stay-at-home Mom or Dad",
+          "value": "I am a stay-at-home Mom or Dad",
+          "type": "radio"
+        },
+        {
+          "label": "Currently unemployed and not going to school",
+          "value": "Currently unemployed and not going to school",
+          "type": "radio"
+        },
+        {
+          "label": "Retired",
+          "value": "Retired",
+          "type": "radio"
+        },
+        {
+          "label": "Other",
+          "value": "Other",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Are or were you and / or your partner in the military",
+      "id": "are_you_partner_military",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes, only me",
+          "value": "Yes, only me",
+          "type": "radio"
+        },
+        {
+          "label": "Yes, only my partner",
+          "value": "Yes, only my partner",
+          "type": "radio"
+        },
+        {
+          "label": "Yes, both of us",
+          "value": "Yes, both of us",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "As a child, did you experience any type of physical, emotional, or sexual abuse someone outside of your family?",
+      "id": "experienced_abuse_out_family",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "As a child did you experience any type of physical, emotional, or sexual abuse from someone inside your family?",
+      "id": "experienced_abuse_in_family",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "As a child between the ages of 4 to 18, did you ever feel that no one in your family loved you or thought you were special?",
+      "id": "child_believe_not_special",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "As a child between the ages of 4 to 18, did you ever feel your needs were ignored?",
+      "id": "child_ignored_needs",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "As a child between the ages of 4 to 18, did you ever feel that either of your parents used street drugs, abused alcohol, or misused prescription drugs?",
+      "id": "parents_misused_drugs",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "As a child between the ages of 4 to 18, did you feel the quality of your relationship your mother or mother figure was",
+      "id": "relation_with_mother",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Very Good",
+          "value": "Very Good",
+          "type": "radio"
+        },
+        {
+          "label": "Good",
+          "value": "Good",
+          "type": "radio"
+        },
+        {
+          "label": "Bad",
+          "value": "Bad",
+          "type": "radio"
+        },
+        {
+          "label": "Very Bad",
+          "value": "Very Bad",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "As a child between the ages of 4 to 18, did you feel the quality of your relationship your father or father figure was",
+      "id": "father_relation",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "As a child between the ages of 4 to 18, did you ever feel your mother or mother figure was physically, verbally or sexually bused by her partner?",
+      "id": "was_mother_abused",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes, and I witnessed the abuse",
+          "value": "Yes, and I witnessed the abuse",
+          "type": "radio"
+        },
+        {
+          "label": "Yes, but I did not witness the abuse",
+          "value": "Yes, but I did not witness the abuse",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "As a child between the ages of 4 to 18, did you ever feel your father or father figure was physically, verbally or sexually bused by his partner?",
+      "id": "was_father_abused",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes, and I witnessed the abuse",
+          "value": "Yes, and I witnessed the abuse",
+          "type": "radio"
+        },
+        {
+          "label": "Yes, but I did not witness the abuse",
+          "value": "Yes, but I did not witness the abuse",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "As a child between the ages of 4 to 18, did you ever feel your parents had marital problems?",
+      "id": "parents_marital_problems",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "As a child between the ages of 4 to 18, did you ever feel any of your bothers or sisters were physically, verbally or sexually abused?",
+      "id": "",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes, and I witnessed the abuse",
+          "value": "Yes, and I witnessed the abuse",
+          "type": "radio"
+        },
+        {
+          "label": "Yes, but I did not witness the abuse",
+          "value": "Yes, but I did not witness the abuse",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        },
+        {
+          "label": "I have no birth or adopted bothers or sisters",
+          "value": "I have no birth or adopted bothers or sisters",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Is your father of your children a problem drinker or alcoholic; abuses prescription drugs or uses street drugs?",
+      "id": "other_spouse_drug_abuse",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you think the father of your children was abused or neglected as a child?",
+      "id": "was_father_abused_as_child",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do you think the father of your children had bothers or sisters who were physically, verbally, or sexually abused as children by their parents?",
+      "id": "was_fathers_siblings_abused",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes and he witnessed the abuse",
+          "value": "Yes and he witnessed the abuse",
+          "type": "radio"
+        },
+        {
+          "label": "Yes but he did not witness the abuse",
+          "value": "Yes but he did not witness the abuse",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        },
+        {
+          "label": "My children's father has no brothers or sisters",
+          "value": "My children's father has no brothers or sisters",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Has your children's father physically, verbally or sexually abused you",
+      "id": "has_father_abused_you",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Have you physically, verbally assaulted or sexually abused your children's father?",
+      "id": "have_you_abused_father",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Please rate the quality of the relationship you have with your children's father",
+      "id": "rate_quality_of_relationship",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "If you were to do it all over again, would you still choose your children father as the father of your children?",
+      "id": "choose_father_again",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "Yes, but under different conditions",
+          "value": "Yes, but under different conditions",
+          "type": "radio"
+        },
+        {
+          "label": "Maybe",
+          "value": "Maybe",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Have any of your children ever experienced any type of physical, verbal or sexual abuse by a person outside of your family?",
+      "id": "have_children_experienced_abuse_outside_family",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Have any of your children ever experienced any type of physical, verbal or sexual abuse by a person inside of your family?",
+      "id": "have_children_experienced_abuse_inside_family",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do any of your children currently have or had in the past, problems with alcohol, prescription drugs or street drugs?",
+      "id": "children_drug_problems",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do any of your children have special learning needs that require a specialist or special education?",
+      "id": "kids_have_special_learning_needs",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Do any of yur children have a history of mental health problems?",
+      "id": "kids_mental_health_problems",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Has anyone in your family ever been referred for psychological counseling?",
+      "id": "family_referred_psychological_counseling",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Overall, I would rate my parenting skills as",
+      "id": "rate_own_skills",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Overall, the degree of happiness I fell being a parent is",
+      "id": "happy_being_parent",
+      "type": "selection",
+      "options": [
+        {
+          "label": "High",
+          "value": "High",
+          "type": "radio"
+        },
+        {
+          "label": "OK",
+          "value": "OK",
+          "type": "radio"
+        },
+        {
+          "label": "Low",
+          "value": "Low",
+          "type": "radio"
+        },
+        {
+          "label": "Very Low",
+          "value": "Very Low",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Knowing what you know now about being a parent, would you still be a parent if you could do it all over again?",
+      "id": "be_parent_again",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "type": "radio"
+        },
+        {
+          "label": "Probably",
+          "value": "Probably",
+          "type": "radio"
+        },
+        {
+          "label": "Probably Not",
+          "value": "Probably Not",
+          "type": "radio"
+        },
+        {
+          "label": "Absolutely Not",
+          "value": "Absolutely Not",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Nurturing Parenting is",
+      "id": "nurturing_parenting_is",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Being a parent 24 hours a day, 365 days a year",
+          "value": "Being a parent 24 hours a day, 365 days a year",
+          "type": "radio"
+        },
+        {
+          "label": "Nurturing your children and yourself",
+          "value": "Nurturing your children and yourself",
+          "type": "radio"
+        },
+        {
+          "label": "Making sure the needs of children always come first",
+          "value": "Making sure the needs of children always come first",
+          "type": "radio"
+        },
+        {
+          "label": "Teaching children to care for others",
+          "value": "Teaching children to care for others",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Giving children choices early in life teaches them to make good decisions later in life",
+      "id": "decisions_early_in_life",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Giving children choices will never get them to do what you want them to do",
+          "value": "Giving children choices will never get them to do what you want them to do",
+          "type": "radio"
+        },
+        {
+          "label": "Kids can't handle choices - they feel more secure being told what to do",
+          "value": "Kids can't handle choices - they feel more secure being told what to do",
+          "type": "radio"
+        },
+        {
+          "label": "Choices can help children learn that there are consequences to the decision they make",
+          "value": "Choices can help children learn that there are consequences to the decision they make",
+          "type": "radio"
+        },
+        {
+          "label": "Kids who have choices generally get into power struggles with their parents",
+          "value": "Kids who have choices generally get into power struggles with their parents",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Having appropriate expectations for children helps them",
+      "id": "having_appropriate_expectations",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Learn to feel good about themselves",
+          "value": "Learn to feel good about themselves",
+          "type": "radio"
+        },
+        {
+          "label": "Develop trust and security",
+          "value": "Develop trust and security",
+          "type": "radio"
+        },
+        {
+          "label": "Learn to succeed in school",
+          "value": "Learn to succeed in school",
+          "type": "radio"
+        },
+        {
+          "label": "All the above statements are true",
+          "value": "All the above statements are true",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Discipline means",
+      "id": "discipline_means",
+      "type": "selection",
+      "options": [
+        {
+          "label": "To guide children by using the rod of correction",
+          "value": "To guide children by using the rod of correction",
+          "type": "radio"
+        },
+        {
+          "label": "To guide children in learning proper morals",
+          "value": "To guide children in learning proper morals",
+          "type": "radio"
+        },
+        {
+          "label": "To teach children to be obedient",
+          "value": "To teach children to be obedient",
+          "type": "radio"
+        },
+        {
+          "label": "To guide children to learn to respect elders",
+          "value": "To guide children to learn to respect elders",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "The rights and wrongs that children learn are called",
+      "id": "rights_and_wrongs",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Family Morals",
+          "value": "Family Morals",
+          "type": "radio"
+        },
+        {
+          "label": "Family Values",
+          "value": "Family Values",
+          "type": "radio"
+        },
+        {
+          "label": "Family Traditions",
+          "value": "Family Traditions",
+          "type": "radio"
+        },
+        {
+          "label": "Family Customs",
+          "value": "Family Customs",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Empathy means",
+      "id": "empathy_means",
+      "type": "selection",
+      "options": [
+        {
+          "label": "To be aware of the feelings your children express",
+          "value": "To be aware of the feelings your children express",
+          "type": "radio"
+        },
+        {
+          "label": "To feel what it's like being a child",
+          "value": "To feel what it's like being a child",
+          "type": "radio"
+        },
+        {
+          "label": "To help children get their needs met",
+          "value": "To help children get their needs met",
+          "type": "radio"
+        },
+        {
+          "label": "Empathy can be all of these at different times",
+          "value": "Empathy can be all of these at different times",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Fear teaches children to respect parent's authority",
+      "id": "fear_teaches_respect",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Fear teaches children to disrespect their parents",
+          "value": "Fear teaches children to disrespect their parents",
+          "type": "radio"
+        },
+        {
+          "label": "I'ts ok to use fear as long as parents don't overdo it.",
+          "value": "I'ts ok to use fear as long as parents don't overdo it.",
+          "type": "radio"
+        },
+        {
+          "label": "Fear teaches children to respect the law",
+          "value": "Fear teaches children to respect the law",
+          "type": "radio"
+        },
+        {
+          "label": "Fear teaches children to learn to be obedient",
+          "value": "Fear teaches children to learn to be obedient",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Children who have a strong sense of personal power",
+      "id": "child_strong_sense_of_power",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Get into power struggles with parents about everything",
+          "value": "Get into power struggles with parents about everything",
+          "type": "radio"
+        },
+        {
+          "label": "Are less influenced by peer pressure",
+          "value": "Are less influenced by peer pressure",
+          "type": "radio"
+        },
+        {
+          "label": "Is one of the characteristics of a bully",
+          "value": "Is one of the characteristics of a bully",
+          "type": "radio"
+        },
+        {
+          "label": "Have difficulty sharing things with others",
+          "value": "Have difficulty sharing things with others",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Pick the right way to Praise a child for behaving positively",
+      "id": "right_praise",
+      "type": "selection",
+      "options": [
+        {
+          "label": "\"You are such a good child for helping me\"",
+          "value": "\"You are such a good child for helping me\"",
+          "type": "radio"
+        },
+        {
+          "label": "\"You make me feel so happy when you get good grades\"",
+          "value": "\"You make me feel so happy when you get good grades\"",
+          "type": "radio"
+        },
+        {
+          "label": "\"You are a wonderful child\"",
+          "value": "\"You are a wonderful child\"",
+          "type": "radio"
+        },
+        {
+          "label": "\"You are such a nice girl when you cooperate\"",
+          "value": "\"You are such a nice girl when you cooperate\"",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Which of the following are good rewards to use as discipline?",
+      "id": "good_rewards",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Praise and some hugs",
+          "value": "Praise and some hugs",
+          "type": "radio"
+        },
+        {
+          "label": "Privilege like staying up later",
+          "value": "Privilege like staying up later",
+          "type": "radio"
+        },
+        {
+          "label": "Gifts like toys, CDs, DVDs",
+          "value": "Gifts like toys, CDs, DVDs",
+          "type": "radio"
+        },
+        {
+          "label": "At times, all these are good rewards to use",
+          "value": "At times, all these are good rewards to use",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Family rules are important because",
+      "id": "family_rules_important",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Children need to learn to be obedient",
+          "value": "Children need to learn to be obedient",
+          "type": "radio"
+        },
+        {
+          "label": "Children need to learn how to cooperate",
+          "value": "Children need to learn how to cooperate",
+          "type": "radio"
+        },
+        {
+          "label": "Children need to respect authority",
+          "value": "Children need to respect authority",
+          "type": "radio"
+        },
+        {
+          "label": "Children need to listen to their parents",
+          "value": "Children need to listen to their parents",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Why do parents spank their children?",
+      "id": "why_spank",
+      "type": "selection",
+      "options": [
+        {
+          "label": "The bible says \"spare the rod, spoil the child\"",
+          "value": "The bible says \"spare the rod, spoil the child\"",
+          "type": "radio"
+        },
+        {
+          "label": "Because parents were spanked as children",
+          "value": "Because parents were spanked as children",
+          "type": "radio"
+        },
+        {
+          "label": "Because they love their children",
+          "value": "Because they love their children",
+          "type": "radio"
+        },
+        {
+          "label": "Parents spank children for all these reasons",
+          "value": "Parents spank children for all these reasons",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Which of the following is a healthy way to manage and reduce stress",
+      "id": "healthy_manage_stress",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Use a punching bag to release your energy",
+          "value": "Use a punching bag to release your energy",
+          "type": "radio"
+        },
+        {
+          "label": "Get away and leave your kids for a while",
+          "value": "Get away and leave your kids for a while",
+          "type": "radio"
+        },
+        {
+          "label": "Exercise daily and practice deep breathing",
+          "value": "Exercise daily and practice deep breathing",
+          "type": "radio"
+        },
+        {
+          "label": "It depends on what works for the parents - everybody is different",
+          "value": "It depends on what works for the parents - everybody is different",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Pick the right way to Praise a child for doing something positive",
+      "id": "child_praise_2",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Good job cleaning your room - Mommy really loves you",
+          "value": "Good job cleaning your room - Mommy really loves you",
+          "type": "radio"
+        },
+        {
+          "label": "You really sing well",
+          "value": "You really sing well",
+          "type": "radio"
+        },
+        {
+          "label": "Your did pretty well - next time try harder",
+          "value": "Your did pretty well - next time try harder",
+          "type": "radio"
+        },
+        {
+          "label": "Do well and make your family proud of you",
+          "value": "Do well and make your family proud of you",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Teaching children to hit a pillow or punching bag is a good way for them to release their anger",
+      "id": "children_hit_pillow",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Hitting is a good way to release anger energy",
+          "value": "Hitting is a good way to release anger energy",
+          "type": "radio"
+        },
+        {
+          "label": "Hitting teaches kids to hit when they're angry",
+          "value": "Hitting teaches kids to hit when they're angry",
+          "type": "radio"
+        },
+        {
+          "label": "Hitting is O as long as you don't get carried away",
+          "value": "Hitting is O as long as you don't get carried away",
+          "type": "radio"
+        },
+        {
+          "label": "Hitting something is a very quick way to calm down",
+          "value": "Hitting something is a very quick way to calm down",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Our self-worth is",
+      "id": "our_self_worth",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Developed from the ways others think about us",
+          "value": "Developed from the ways others think about us",
+          "type": "radio"
+        },
+        {
+          "label": "The thoughts and feelings we have about ourselves",
+          "value": "The thoughts and feelings we have about ourselves",
+          "type": "radio"
+        },
+        {
+          "label": "Learned in childhood and is difficult to change",
+          "value": "Learned in childhood and is difficult to change",
+          "type": "radio"
+        },
+        {
+          "label": "Depends upon the opinions of others",
+          "value": "Depends upon the opinions of others",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Teaching children the correct names for their sexual body parts",
+      "id": "correct_names_for_sexual_body_parts",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Is the first step in building positive sexual self-worth",
+          "value": "Is the first step in building positive sexual self-worth",
+          "type": "radio"
+        },
+        {
+          "label": "Helps children feel good about their bodies",
+          "value": "Helps children feel good about their bodies",
+          "type": "radio"
+        },
+        {
+          "label": "Helps children learn to say \"No\" to unwanted touch.",
+          "value": "Helps children learn to say \"No\" to unwanted touch.",
+          "type": "radio"
+        },
+        {
+          "label": "All of the above",
+          "value": "All of the above",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "The best way to help children their feelings is to",
+      "id": "help_children_understand_feelings",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Listen quietly and attentively",
+          "value": "Listen quietly and attentively",
+          "type": "radio"
+        },
+        {
+          "label": "Respect the child's feelings",
+          "value": "Respect the child's feelings",
+          "type": "radio"
+        },
+        {
+          "label": "Encourage the child to talk",
+          "value": "Encourage the child to talk",
+          "type": "radio"
+        },
+        {
+          "label": "All of the above",
+          "value": "All of the above",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Anger is",
+      "id": "anger_is",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Past hurt feelings that are finally being expressed",
+          "value": "Past hurt feelings that are finally being expressed",
+          "type": "radio"
+        },
+        {
+          "label": "Anger is a feeling that causes people to become violent",
+          "value": "Anger is a feeling that causes people to become violent",
+          "type": "radio"
+        },
+        {
+          "label": "Getting angry is a good way to release stress",
+          "value": "Getting angry is a good way to release stress",
+          "type": "radio"
+        },
+        {
+          "label": "Anger lets others know you are mad at them",
+          "value": "Anger lets others know you are mad at them",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Witch of the following is a good way to build self-worth in children",
+      "id": "self_worth_in_children_building",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Listen and honor their opinions",
+          "value": "Listen and honor their opinions",
+          "type": "radio"
+        },
+        {
+          "label": "Provide children with choices for their behavior",
+          "value": "Provide children with choices for their behavior",
+          "type": "radio"
+        },
+        {
+          "label": "Don't blame them for the way parents feel",
+          "value": "Don't blame them for the way parents feel",
+          "type": "radio"
+        },
+        {
+          "label": "All of these are good ways to build self-worth",
+          "value": "All of these are good ways to build self-worth",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "I Make the time to nurture myself",
+      "id": "utilization_of_nurturing_skills_nurture_self",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Recognize my personal strengths",
+      "id": "utilization_of_nurturing_skills_recognize_strengths",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Respond to my children's needs with empathy",
+      "id": "utilization_of_nurturing_skills_respond_with_empathy",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Give my children choices and consequences",
+      "id": "utilization_of_nurturing_skills_give_choices_consequences",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Have expectations for my children to succeed",
+      "id": "utilization_of_nurturing_skills_expectations_for_success",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Spend time having fun with my children",
+      "id": "utilization_of_nurturing_skills_have_fun_with_children",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Praise my children for \"being\" wonderful kids",
+      "id": "utilization_of_nurturing_skills_praise_for_wonderful_kids",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Praise my children for \"doing\" their best",
+      "id": "utilization_of_nurturing_skills_praise_doing_best",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Model appropriate ways to manage my stress",
+      "id": "utilization_of_nurturing_skills_model_stress_management",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Honor my children's wants and desires",
+      "id": "utilization_of_nurturing_skills_honor_children's_desires_wants",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Help my children improve their self-worth",
+      "id": "utilization_of_nurturing_skills_improve_self_worth",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Refer to our family rules to help guide my children",
+      "id": "utilization_of_nurturing_skills_use_family_rules",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Use positive discipline rather than span or hit my children",
+      "id": "utilization_of_nurturing_skills_positive_discipline",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Model appropriate ways to express my anger",
+      "id": "utilization_of_nurturing_skills_appropriate_ways_to_express_anger",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Have awareness of my own adult needs",
+      "id": "utilization_of_nurturing_skills_know_own_needs",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Make time to get my needs met",
+      "id": "utilization_of_nurturing_skills_get_needs_met",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Help my children learn positive ways to manage and express their feelings",
+      "id": "utilization_of_nurturing_skills_help_children_manage_feelings",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Express unconditional love for my children",
+      "id": "utilization_of_nurturing_skills_express_unconditional_love_for_children",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Praise myself for being or doing",
+      "id": "utilization_of_nurturing_skills_",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "Model appropriate ways to express feelings of discomfort (bad feelings)",
+      "id": "utilization_of_nurturing_skills_appropriate_ways_to_express_bad_feelings",
+      "type": "selection",
+      "options": [
+        {
+          "label": "Don't practice this skill at all",
+          "value": "Don't practice this skill at all",
+          "type": "radio"
+        },
+        {
+          "label": "Sometimes",
+          "value": "Sometimes",
+          "type": "radio"
+        },
+        {
+          "label": "Often",
+          "value": "Often",
+          "type": "radio"
+        },
+        {
+          "label": "Regularly",
+          "value": "Regularly",
+          "type": "radio"
+        }
+      ],
+      "validation": {
+        "required": false
+      }
+    }
+  ]
+}

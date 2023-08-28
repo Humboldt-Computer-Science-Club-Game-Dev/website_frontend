@@ -1,0 +1,77 @@
+{
+  "ID": "applicant_inputs",
+  "type": "input",
+  "questions": [
+    {
+      "question": "What is your first name",
+      "placeholder": "John",
+      "id": "first_name",
+      "type": "text",
+      "validation": {
+        "required": true,
+        "regex": "^.{1,30}$",
+        "error": "Please enter a valid first name"
+      }
+    },
+    {
+      "question": "What is your last name?",
+      "placeholder": "Doe",
+      "id": "last_name",
+      "type": "text",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "What is your phone number?",
+      "placeholder": "(310) 625-4363",
+      "id": "phone",
+      "type": "tel",
+      "validation": {
+        "required": true,
+        "regex": "^.{5,15}$",
+        "error": "Please enter a valid phone number"
+      }
+    },
+    {
+      "question": "What is your zip code?",
+      "placeholder": "90210",
+      "id": "zip",
+      "type": "text",
+      "validation": {
+        "required": true,
+        "regex": "^.{5,5}$",
+        "error": "Please enter a valid 5 digit zip code"
+      }
+    },
+    {
+      "question": "What is your email?",
+      "placeholder": "johndoe@gmail.com",
+      "id": "email",
+      "type": "email",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "What is your Date of Birth?",
+      "placeholder": "03/21/2023",
+      "id": "dob",
+      "type": "date",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "question": "What is your Gender?",
+      "placeholder": "male",
+      "id": "gender",
+      "type": "text",
+      "validation": {
+        "required": true,
+        "regex": "^.{1,30}$",
+        "error": "Please enter a gender"
+      }
+    }
+  ]
+}

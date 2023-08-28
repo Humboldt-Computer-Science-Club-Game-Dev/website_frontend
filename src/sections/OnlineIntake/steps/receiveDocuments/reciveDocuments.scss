@@ -1,0 +1,33 @@
+.receive_document_mobile {
+  h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    margin-top: 1rem;
+  }
+
+  p,
+  button {
+    margin-top: 1.5rem;
+  }
+
+  p {
+    font-weight: 200;
+  }
+
+  .receive_document_loading {
+    color: black;
+
+    h1 {
+      color: black;
+    }
+
+    svg,
+    .colorPrimary {
+      fill: black;
+      color: black;
+    }
+  }
+}
