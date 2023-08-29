@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans+Condensed:wght@300;700&display=swap");
+
+@font-face {
+  font-family: "Handjet";
+  src: url("Media/fonts/Handjet-VariableFont_ELGR,ELSH,wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   background-color: black;
   overflow: hidden;
@@ -83,7 +92,7 @@ body {
 }
 
 .special-font {
-  font-family: "Dancing Script", cursive !important;
+  font-family: "Handjet", sans-serif !important;
 }
 
 .bg-red {
