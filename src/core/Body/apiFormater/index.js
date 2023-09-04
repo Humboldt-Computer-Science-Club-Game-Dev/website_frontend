@@ -24,6 +24,7 @@ import buildOnlineIntake from "./buildOnlineIntake";
 import buildQueryIntake from "./buildQueryIntake";
 import buildReimbursement from "./buildReimbursement";
 import buildRequisition from "./buildRequisition";
+import buildDiscordInvite from "./buildDiscordInvite";
 
 export default async function apiFormater(raw) {
   raw = raw[0];
@@ -133,6 +134,8 @@ async function buildSectionsData(rawSs /* raw sections */) {
         newSection = await buildReimbursement(rawS);
       case "requisition":
         newSection = await buildRequisition(rawS);
+      case "discordInvite":
+        newSection = await buildDiscordInvite(rawS);
       default:
         console.error(`${rawS._type} is not a supported section type`);
         sectionWasBuilt = false;

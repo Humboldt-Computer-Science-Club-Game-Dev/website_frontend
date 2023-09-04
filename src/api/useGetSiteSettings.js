@@ -1,19 +1,17 @@
-import { useState, useEffect } from 'react';
-import client from 'config/sanityClient';
+import { useState, useEffect } from "react";
+
+import getSiteSettings from "./getSiteSettings";
 
 export default function useGetSiteSettings() {
-	const [siteSettings, setSiteSettings] = useState({});
+  const [siteSettings, setSiteSettings] = useState({});
 
-	useEffect(() => {
-		const query = `*[_type == "siteSettings"][0]{...}`;
+  useEffect(() => {
+    (() => {
+      getSiteSettings().then((data) => {
+        setSiteSettings(data);
+      });
+    })();
+  }, []);
 
-		client
-			.fetch(query)
-			.then(data => {
-				setSiteSettings(data);
-			})
-			.catch(console.error);
-	}, []);
-
-	return siteSettings;
+  return siteSettings;
 }

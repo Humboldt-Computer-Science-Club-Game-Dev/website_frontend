@@ -27,6 +27,7 @@ import OnlineIntake from "sections/OnlineIntake";
 import QueryIntake from "sections/QueryIntake/QueryIntake";
 import Reimbursement from "sections/Reimbursement/Reimbursement";
 import Requisition from "sections/Requisition";
+import DiscordInvite from "sections/DiscordInvite";
 
 export default async function CreateBody(rawSanityData) {
   let locationData = await formatAPIData(rawSanityData);
@@ -94,6 +95,8 @@ function buildJSX(locationData) {
       newSection = <Reimbursement key={i} {...section.props} />;
     } else if (section.name === "requisition") {
       newSection = <Requisition key={i} {...section.props} />;
+    } else if (section.name === "discordInvite") {
+      newSection = <DiscordInvite key={i} {...section.props} />;
     }
     if (newSection) {
       SectionContent.push(newSection);
